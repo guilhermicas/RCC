@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>RCC</title>
+    <link rel="stylesheet" href="/css/styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <h2 class="app-title">RCC</h2>
+    </nav>
+    <div class="div-master">
+      <div class="action-object">
+        <form method="POST" action="/firefox">
+          <p class="object-information">Abrir link no firefox</p>
+          <input
+            type="text"
+            class="object-textbox"
+            name="command"
+            placeholder="www.youtube.com"
+          />
+          <button class="object-submit" type="submit">Enviar commando</button>
+        </form>
+      </div>
+      <div class="action-object">
+        <form method="POST" action="/">
+          <p class="object-information">Send sys command</p>
+          <input
+            type="text"
+            class="object-textbox"
+            name="command"
+            placeholder="firefox www.youtube.com"
+          />
+          <button class="object-submit" type="submit">Enviar commando</button>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
